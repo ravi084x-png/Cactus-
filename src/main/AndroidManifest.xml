@@ -7,6 +7,16 @@
         android:label="Tera Keyboard"
         android:allowBackup="false">
 
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="Tera Keyboard">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
         <service
             android:name=".TeraIME"
             android:label="Tera Keyboard"
